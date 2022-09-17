@@ -15,5 +15,10 @@ margin-right: 20px;
 `;
 export const OptionButton = styled.button`
 background-color: teal;
-border: 50%;
+border-radius: 15%;
+border: 1px solid grey;
+:hover {background-color: pink;
+}
+:focus {background-color: pink;
+}
 `;
